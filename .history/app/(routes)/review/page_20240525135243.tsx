@@ -29,17 +29,17 @@ export default function Review(){
             {state?.type === "success" && <p className="text-lg p-2 text-white rounded-md bg-green-500">{state?.message}</p>}
             {state?.type === "error" && <p className="text-lg p-2 text-white rounded-md bg-red-500">{state?.message}</p>}
             <form action={formAction} className="flex flex-col lg:gap-y-[20px] sm:gap-y-[30px]">
-                <fieldset className="pb-6 lg:pb-2">
+                <fieldset className="p-4">
                     <label htmlFor="safety" className="text-xl font-semibold">Safety</label>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <StarRating name="safety"/>
                 </fieldset>
-                <fieldset className="pb-6 lg:pb-2">
+                <fieldset className='p-4'>
                     <label htmlFor="communication" className="text-xl font-semibold">Communication</label>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae corporis quidem a voluptate aspernatur mollitia, odio temporibus ab consequuntur eaque labore consectetur fuga in magnam architecto saepe nostrum voluptatem?</p>
                     <StarRating name="communication"/>
                 </fieldset>
-                <fieldset className="pb-6 lg:pb-2">
+                <fieldset>
                     <label htmlFor="recommend" className="text-xl font-semibold">Would you recommend our app? </label>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae corporis quidem a voluptate aspernatur mollitia, odio temporibus ab consequuntur eaque labore consectetur fuga in magnam architecto saepe nostrum voluptatem?</p>
                     <TrueOrFalse name="recommend"/>

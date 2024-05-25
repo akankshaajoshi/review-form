@@ -34,12 +34,12 @@ export default function Review(){
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <StarRating name="safety"/>
                 </fieldset>
-                <fieldset className="pb-6 lg:pb-2">
+                <fieldset className='pb-4'>
                     <label htmlFor="communication" className="text-xl font-semibold">Communication</label>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae corporis quidem a voluptate aspernatur mollitia, odio temporibus ab consequuntur eaque labore consectetur fuga in magnam architecto saepe nostrum voluptatem?</p>
                     <StarRating name="communication"/>
                 </fieldset>
-                <fieldset className="pb-6 lg:pb-2">
+                <fieldset>
                     <label htmlFor="recommend" className="text-xl font-semibold">Would you recommend our app? </label>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae corporis quidem a voluptate aspernatur mollitia, odio temporibus ab consequuntur eaque labore consectetur fuga in magnam architecto saepe nostrum voluptatem?</p>
                     <TrueOrFalse name="recommend"/>

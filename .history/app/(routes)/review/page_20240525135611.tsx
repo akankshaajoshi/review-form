@@ -39,7 +39,7 @@ export default function Review(){
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae corporis quidem a voluptate aspernatur mollitia, odio temporibus ab consequuntur eaque labore consectetur fuga in magnam architecto saepe nostrum voluptatem?</p>
                     <StarRating name="communication"/>
                 </fieldset>
-                <fieldset className="pb-6 lg:pb-2">
+                <fieldset "pb-6 lg:pb-2">
                     <label htmlFor="recommend" className="text-xl font-semibold">Would you recommend our app? </label>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae corporis quidem a voluptate aspernatur mollitia, odio temporibus ab consequuntur eaque labore consectetur fuga in magnam architecto saepe nostrum voluptatem?</p>
                     <TrueOrFalse name="recommend"/>
