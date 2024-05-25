@@ -6,7 +6,7 @@ import StarRating from "./../../_components/StarRatings"
 import TrueOrFalse from './../../_components/TrueOrFalse'
 
 const initialState = {
-    message: "",
+    message: null,
     type: "",
 }
 
